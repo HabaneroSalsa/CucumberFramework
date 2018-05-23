@@ -7,11 +7,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class CukeDemo {
 
 	public static void main (String[] args) {
-		
-		//Test changes
-		int test = 0;
-		//end Test changes
-		
 		String exePath = "C:\\Automation\\ChromeDriver\\2.38\\chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", exePath);
 		WebDriver driver = null;
